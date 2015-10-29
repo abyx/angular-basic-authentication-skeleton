@@ -1,7 +1,7 @@
 angular.module('app').directive('login', function($location, $state, $stateParams) {
     return {
         template: '<form ng-submit="vm.submit()">' +
-                    '<h1>Login</h1>' +
+                    '<h1>Login (doesn\'t really matter what you enter here)</h1>' +
                     '<div><input type="email" placeholder=email></div>' +
                     '<div><input type=password placeholder="Password"></div>' +
                     '<div><input type=submit>' +
